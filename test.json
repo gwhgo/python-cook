@@ -1,0 +1,88 @@
+{
+    "time_iso8601": "2019-12-11T14:09:58+08:00",
+    "browser": [
+        {
+            "modern_browser": "",
+            "ancient_browser": "1",
+            "msie": ""
+        }
+    ],
+    "core": [
+        {
+            "args": "-",
+            "arg": {
+                "arg_example": "-"
+            },
+            "body_bytes_sent": "0",
+            "bytes_sent": "182",
+            "cookie": {
+                "cookie_example": "-"
+            },
+            "connection": "3",
+            "connection_requests": "1",
+            "content_length": "-",
+            "content_type": "-",
+            "document_root": "/usr/share/nginx/html",
+            "document_uri": "/img/header-background.png",
+            "host": "log.com",
+            "hostname": "vm14-log",
+            "http": {
+                "http_example": "-"
+            },
+            "https": "",
+            "is_args": "",
+            "limit_rate": "0",
+            "msec": "1576044598.912",
+            "nginx_version": "1.16.1",
+            "pid": "26400",
+            "pipe": ".",
+            "proxy_protocol_addr": "",
+            "query_string": "-",
+            "realpath_root": "/usr/share/nginx/html",
+            "remote_addr": "192.168.11.105",
+            "remote_port": "17010",
+            "remote_user": "-",
+            "request": "GET /img/header-background.png HTTP/1.1",
+            "request_body": "-",
+            "request_body_file": "-",
+            "request_completion": "OK",
+            "request_filename": "/usr/share/nginx/html/img/header-background.png",
+            "request_length": "443",
+            "request_method": "GET",
+            "request_time": "0.000",
+            "request_uri": "/img/header-background.png",
+            "scheme": "http",
+            "sent_http_": {
+                "sent_http_example": "-"
+            },
+            "server_addr": "192.168.6.223",
+            "server_name": "_",
+            "server_port": "80",
+            "server_protocol": "HTTP/1.1",
+            "status": "304",
+            "tcpinfo_rtt": "4000",
+            "tcpinfo_rttvar": "2000",
+            "tcpinfo_snd_cwnd": "10",
+            "tcpinfo_rcv_space": "29200",
+            "uri": "/img/header-background.png"
+        }
+    ],
+    "fastcgi": [
+        {
+            "fastcgi_path_info": "",
+            "fastcgi_script_name": "/img/header-background.png"
+        }
+    ],
+    "gzip": [
+        {
+            "gzip_ratio": "-"
+        }
+    ],
+    "proxy": [
+        {
+            "proxy_add_x_forwarded_for": "192.168.11.105",
+            "proxy_host": "-",
+            "proxy_port": "-"
+        }
+    ]
+}
